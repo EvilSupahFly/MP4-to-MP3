@@ -7,3 +7,5 @@ To use this script:
     - `./mp4-to-mp3.sh ./`
 
 If errors are encountered, it will leave a message about the problem file and move on to the next (if available).
+
+Currently, this only runs on APT based distros.
