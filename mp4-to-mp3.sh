@@ -2,6 +2,7 @@
 
 # Function to install FFMPEG
 install_ffmpeg() {
+    # I know many distros have shortened apt-get to just apt, but I'm keeping apt-get for backwards-compatibility with older distros
     echo "FFMPEG not found. Installing..."
     sudo apt-get update && sudo apt-get install -y ffmpeg
 }
